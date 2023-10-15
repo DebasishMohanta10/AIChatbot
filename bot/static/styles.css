@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.chat-container {
+    height: 90vh;
+    max-width: 400px;
+    margin: 20px auto;
+    /* background-color: #fff; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.chat-header {
+    background-color: #23a728;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.chat-messages {
+    padding: 10px;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 90%;
+}
+
+.bot {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-start;
+}
+
+.user {
+    background-color: #fff;
+    color: #333;
+    align-self: flex-end;
+}
+
+.chat-input {
+    position: absolute;
+    bottom: 0;
+} 
